@@ -6,6 +6,7 @@
     <link rel="icon" href="/source/foto/logo.png" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script>
       document.addEventListener("DOMContentLoaded", () => {
           MathJax.typesetPromise();
@@ -64,7 +65,7 @@
             <a href="mt1.html" class=" block py-2 px-3 md:p-0 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:dark:text-grey-500" aria-current="page"">Materi</a>
           </li>
           <li>
-            <a href="latihan.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Latihan</a>
+            <a href="latihan-umum.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Latihan</a>
           </li>
           <li>
             <a href="tentang.html" class="block py-2 px-3 md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Tentang</a>
@@ -76,7 +77,7 @@
     <!--Navbar-->
 
     <!--Latihan-->
-    <div class="flex justify-center items-center p-4">
+    <div data-aos="fade-up" data-aos-duration="1500" class="flex justify-center items-center p-4">
         <video class="w-[90%] max-w-5xl aspect-video h-auto" controls>
           <source src="/source/video/0,0.mp4" type="video/mp4">
           Your browser does not support the video tag.
@@ -86,14 +87,14 @@
 
 
     <!--Resume-->
-    <div class="bg-cyan-50 mt-12">
+    <div  class="bg-cyan-50 mt-12">
 
       <h1
           class="mb-4 text-4xl p-12 font-extrabold leading-none text-center tracking-tight text-gray-900 md:text-2xl lg:text-4xl dark:text-white"
         >
           Rangkuman Materi Eksponen
     </h1>
-    <div class="flex items-center justify-center">
+    <div data-aos="fade-up" data-aos-duration="1500" class="flex items-center justify-center">
       <div class="grid grid-cols-1 md:grid-cols-2 mb-24 gap-4 w-full max-w-5xl px-4">
         <!-- Keterangan Eksponen -->
         <div class="p-6 bg-white shadow-lg rounded-lg">
@@ -111,7 +112,7 @@
         </div>
     
         <!-- Slider Card -->
-        <div class="p-6 bg-white shadow-lg rounded-lg">
+        <div data-aos="fade-up" data-aos-duration="1500" class="p-6 bg-white shadow-lg rounded-lg">
           <div id="slider">
             <h1 class="text-2xl font-bold text-center mb-6">Sifat Eksponen</h1>
         <div id="slider">
@@ -210,7 +211,7 @@
     <!--Resume-->
 
     <!--PDF Download-->
-    <div class="space-y-4 pt-12 pl-8 pr-8">
+    <div data-aos="fade-up" data-aos-duration="1500" class="space-y-4 pt-12 pl-8 pr-8">
       <details
           class="group border-s-4 border-cyan-400 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
         >
@@ -255,7 +256,7 @@
       <!-- Judul Tugas -->
       <h1 class="text-3xl font-bold text-center mb-6">Tugas Sifat-Sifat Eksponen</h1>
 
-      <div class="space-y-4 mb-24 ">
+      <div data-aos="fade-up" data-aos-duration="1500" class="space-y-4 mb-24 ">
         <details
           class="group border-s-4 border-indigo-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
         >
@@ -319,7 +320,7 @@
           </p>
         </details>
 
-        <details
+        <details data-aos="fade-up" data-aos-duration="1500"
           class="group border-s-4 border-indigo-500 bg-gray-50 p-6 [&_summary::-webkit-details-marker]:hidden"
           open
         >
@@ -387,5 +388,9 @@
       </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 </html>
